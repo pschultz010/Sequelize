@@ -1,5 +1,5 @@
 const foo = async () => {
-    let test = await fetch('http://localhost:3000/api/dining');
+    let test = await fetch('/api/dining');
     let body = await test.json()
 
     var trow = document.getElementById('table_body')
